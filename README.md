@@ -25,6 +25,73 @@ Go · Gin/Fiber · MongoDB · Redis · Docker · Nginx · GitHub Actions · Node
 ## ⏱️ Coding Activity (WakaTime)
 > *Tự cập nhật: tổng giờ code + giờ theo **Projects***  
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+
+**🐱 My GitHub Data** 
+
+> 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 123 Contributions in the Year 2025
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 7 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                90 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.04 % 
+🌆 Daytime                203 commits         ████████░░░░░░░░░░░░░░░░░   31.67 % 
+🌃 Evening                263 commits         ██████████░░░░░░░░░░░░░░░   41.03 % 
+🌙 Night                  85 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.26 % 
+```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   105 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.38 % 
+Tuesday                  108 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.85 % 
+Wednesday                125 commits         █████░░░░░░░░░░░░░░░░░░░░   19.50 % 
+Thursday                 130 commits         █████░░░░░░░░░░░░░░░░░░░░   20.28 % 
+Friday                   70 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.92 % 
+Saturday                 36 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.62 % 
+Sunday                   67 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.45 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Bangkok
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+```
+
+**I Mostly Code in Go** 
+
+```text
+Go                       5 repos             █████░░░░░░░░░░░░░░░░░░░░   21.74 % 
+TypeScript               4 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.39 % 
+Java                     3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.04 % 
+JavaScript               3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.04 % 
+Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.70 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/phongdang17183/phongdang17183/main/assets/bar_graph.png)
+
+
+ Last Updated on 21/08/2025 14:32:23 UTC
 <!--END_SECTION:waka-->
 
 ## 📊 Stats
