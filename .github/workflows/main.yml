@@ -13,14 +13,10 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Hiển thị
           SHOW_TOTAL_CODE_TIME: "True"
-          SHOW_PROJECTS: "True"         # <— quan trọng: hiện giờ theo project
+          SHOW_PROJECTS: "True"
           SHOW_EDITORS: "False"
           SHOW_LANGUAGE: "True"
           SHOW_OS: "False"
-          # Phạm vi thống kê
-          RANGE: "all_time"          # đổi thành last_30_days / all_time nếu muốn
-          # Cấu hình chèn vào README giữa 2 markers:
           SECTION_NAME: "waka"
           COMMIT_MESSAGE: "docs(readme): update WakaTime stats"
