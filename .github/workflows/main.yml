@@ -1,22 +1,35 @@
 name: Update WakaTime section
 
 on:
-  schedule:
-    - cron: "0 3 * * *"   # chạy 03:00 UTC mỗi ngày
+  # for manual workflow trigger
   workflow_dispatch:
+  schedule:
+    # runs at 12 AM UTC (5:30 AM IST)
+    - cron: "0 0 * * *"
 
 jobs:
-  waka:
+  update-readme:
+    name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - uses: anmol098/waka-readme-stats@master
+        # this action name
+      - uses: athul/waka-readme@master # do NOT replace with anything else
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB1_TOKEN }}
-          SHOW_TOTAL_CODE_TIME: "True"
-          SHOW_PROJECTS: "True"
-          SHOW_EDITORS: "False"
-          SHOW_LANGUAGE: "True"
-          SHOW_OS: "False"
-          SECTION_NAME: "waka"
-          COMMIT_MESSAGE: "docs(readme): update WakaTime stats"
+          GH_TOKEN: ${{ secrets.GITHUB1_TOKEN }} # optional if on profile readme
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
+          ### meta
+          API_BASE_URL: https://wakatime.com/api # optional
+          REPOSITORY: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME # optional
+          ### content
+          SHOW_TITLE: true # optional
+          SECTION_NAME: waka # optional
+          BLOCKS: -> # optional
+          CODE_LANG: rust # optional
+          TIME_RANGE: all_time # optional
+          LANG_COUNT: 10 # optional
+          SHOW_TIME: true # optional
+          SHOW_TOTAL: true # optional
+          SHOW_MASKED_TIME: false # optional
+          STOP_AT_OTHER: true # optional
+          IGNORED_LANGUAGES: YAML JSON TOML # optional
+         
