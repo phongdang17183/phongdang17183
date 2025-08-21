@@ -79,7 +79,7 @@ No activity tracked
 
 <!--END_SECTION:waka-->
 
-## 🔥 Featured Projects
+<!--## 🔥 Featured Projects
 
 <div align="center">
 
@@ -89,7 +89,7 @@ No activity tracked
 [![DADN QLNK](https://github-readme-stats.vercel.app/api/pin/?username=phongdang17183&repo=DADN-QLNK&theme=tokyonight&border_color=36BCF7)](https://github.com/phongdang17183/DADN-QLNK)
 [![Simple NestJS](https://github-readme-stats.vercel.app/api/pin/?username=phongdang17183&repo=SimpleNestJs&theme=tokyonight&border_color=36BCF7)](https://github.com/phongdang17183/SimpleNestJs)
 
-</div>
+</div> -->
 
 ## 📈 GitHub Analytics
 
