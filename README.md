@@ -95,18 +95,6 @@ Docker       2 hrs 2 mins    ██▒░░░░░░░░░░░░░░
 
 </div> -->
 
-## 📈 GitHub Analytics
-
-<div align="center">
-  
-![Phong's GitHub Stats](https://github-readme-stats.vercel.app/api?username=phongdang17183&show_icons=true&theme=tokyonight&border_color=36BCF7&title_color=36BCF7&icon_color=36BCF7)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=phongdang17183&theme=tokyonight&border=36BCF7&stroke=36BCF7&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=phongdang17183&layout=compact&theme=tokyonight&border_color=36BCF7&title_color=36BCF7)
-
-</div>
-
 ## 🎯 Current Focus
 
 - 🏗️ **Building SMAP**: SEO/Marketing Analytics Platform with Go + Clean Architecture
