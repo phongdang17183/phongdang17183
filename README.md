@@ -72,13 +72,13 @@ func main() {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 31 October 2025 - To: 07 November 2025
+From: 01 November 2025 - To: 08 November 2025
 
-Python       6 hrs 5 mins    ██████░░░░░░░░░░░░░░░░░░░   23.34 %
-Go           4 hrs 53 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.73 %
-Bash         3 hrs 43 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   14.23 %
-Docker       3 hrs 10 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.12 %
-Markdown     2 hrs 37 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.04 %
+Go           6 hrs 52 mins   ███████░░░░░░░░░░░░░░░░░░   27.82 %
+Python       6 hrs 5 mins    ██████▒░░░░░░░░░░░░░░░░░░   24.68 %
+Bash         3 hrs 14 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.12 %
+Docker       3 hrs 10 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   12.82 %
+Markdown     2 hrs 17 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.26 %
 ```
 
 <!--END_SECTION:waka-->
