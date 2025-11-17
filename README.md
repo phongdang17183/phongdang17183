@@ -95,12 +95,19 @@ Text         19 mins         ▓░░░░░░░░░░░░░░░░
 
 </div> -->
 
-## 🎯 Current Focus
+## 🐱‍💻 Projects
 
-- 🏗️ **Building SMAP**: SEO/Marketing Analytics Platform with Go + Clean Architecture
-- ⚡ **Performance Optimization**: Redis caching strategies & microservices scaling  
-- 🔄 **DevOps Excellence**: Advanced CI/CD pipelines with GitHub Actions & Azure
-- 📚 **Learning**: Kubernetes, GraphQL, and advanced distributed systems patterns
+<!--START_SECTION:waka-projects-->
+
+```txt
+ticketbottle-waitroom    4 hrs 25 mins       █████████████░░░░░░░░░░░░   53.62 %
+ticketbottle-api-gateway 2 hrs 37 mins       ████████░░░░░░░░░░░░░░░░░   31.83 %
+TicketBottleV2           26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.33 %
+ticketbottle-user        18 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.79 %
+ticketbottle-order       15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.18 %
+```
+
+<!--END_SECTION:waka-projects-->
 
 ## 🌐 Connect With Me
 
