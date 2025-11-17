@@ -13,7 +13,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: athul/waka-readme@master
+      - uses: actions/checkout@v3
+
+      - name: Update Language Stats
+        uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
@@ -29,20 +32,22 @@ jobs:
           SHOW_LOC_CHART: false
           LOCALE: "en"
 
-      - uses: athul/waka-readme@master
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update Project Stats
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SECTION_NAME: waka-projects
-          SHOW_TITLE: false
-          SHOW_TIME: false
-          SHOW_DAYS_OF_WEEK: false
-          SHOW_TIMEZONE: false
-          SHOW_EDITORS: false
-          SHOW_PROJECTS: true
-          SHOW_LANGUAGE: false
-          SHOW_OS: false
-          SHOW_COMMIT: true
-          SHOW_PROFILE_VIEWS: false
-          SHOW_LOC_CHART: false
-          LOCALE: "en"
-          COMMIT_MESSAGE: "📊 Updated development metrics"
+        run: python .github/scripts/update_projects.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Updated development metrics" && git push)
