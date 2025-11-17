@@ -6,13 +6,22 @@ from datetime import datetime
 def get_wakatime_projects(api_key):
     """Fetch WakaTime project stats for last 7 days"""
     url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
-    headers = {"Authorization": f"Bearer {api_key}"}
 
-    response = requests.get(url, headers=headers)
+    # WakaTime uses Basic auth with API key as username
+    from requests.auth import HTTPBasicAuth
+
+    print(f"🔑 Using API key: {api_key[:15]}...")
+    print(f"📡 Fetching from: {url}")
+
+    response = requests.get(url, auth=HTTPBasicAuth(api_key, ''))
+    print(f"📊 Response status: {response.status_code}")
+
     response.raise_for_status()
 
     data = response.json()
-    return data.get('data', {}).get('projects', [])
+    projects = data.get('data', {}).get('projects', [])
+    print(f"✅ Found {len(projects)} projects in API response")
+    return projects
 
 def format_time(total_seconds):
     """Format seconds into hours and minutes"""
