@@ -95,12 +95,15 @@ Text         19 mins         ▓░░░░░░░░░░░░░░░░
 
 </div> -->
 
-## 🎯 Current Focus
+## Projects
 
-- 🏗️ **Building SMAP**: SEO/Marketing Analytics Platform with Go + Clean Architecture
-- ⚡ **Performance Optimization**: Redis caching strategies & microservices scaling  
-- 🔄 **DevOps Excellence**: Advanced CI/CD pipelines with GitHub Actions & Azure
-- 📚 **Learning**: Kubernetes, GraphQL, and advanced distributed systems patterns
+<!--START_SECTION:waka-projects-->
+
+```txt
+
+```
+
+<!--END_SECTION:waka-projects-->
 
 ## 🌐 Connect With Me
 
