@@ -72,10 +72,7 @@ func main() {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 08 December 2025 - To: 15 December 2025
-
-Markdown   32 mins         ██████████████▒░░░░░░░░░░   57.12 %
-Go         24 mins         ██████████▓░░░░░░░░░░░░░░   42.88 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
