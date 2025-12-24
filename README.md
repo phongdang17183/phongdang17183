@@ -72,11 +72,9 @@ func main() {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 December 2025 - To: 24 December 2025
-
-Bash       5 mins          ████████████░░░░░░░░░░░░░   48.57 %
-Python     4 mins          ███████████▓░░░░░░░░░░░░░   47.25 %
-Markdown   0 secs          █░░░░░░░░░░░░░░░░░░░░░░░░   04.18 %
+Bash                       ████████████░░░░░░░░░░░░░   48.57 %
+Python                     ███████████▓░░░░░░░░░░░░░   47.25 %
+Markdown                   █░░░░░░░░░░░░░░░░░░░░░░░░   04.18 %
 ```
 
 <!--END_SECTION:waka-->
