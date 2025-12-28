@@ -72,6 +72,8 @@ func main() {
 <!--START_SECTION:waka-->
 
 ```txt
+From: 20 December 2025 - To: 27 December 2025
+
 No activity tracked
 ```
 
