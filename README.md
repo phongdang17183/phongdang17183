@@ -72,10 +72,8 @@ func main() {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 07 January 2026 - To: 14 January 2026
-
-Go         59 mins         █████████████████████████   99.75 %
-Makefile   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %
+Go                         █████████████████████████   99.75 %
+Makefile                   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %
 ```
 
 <!--END_SECTION:waka-->
