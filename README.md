@@ -72,13 +72,7 @@ func main() {
 <!--START_SECTION:waka-->
 
 ```txt
-From: 09 March 2026 - To: 16 March 2026
-
-Go           3 hrs 32 mins         ██████████████░░░░░░░░░░░   55.59 %
-Markdown     1 hr 9 mins           ████▓░░░░░░░░░░░░░░░░░░░░   18.31 %
-Makefile     32 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   08.62 %
-TypeScript   25 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.67 %
-Python       18 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   04.80 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
